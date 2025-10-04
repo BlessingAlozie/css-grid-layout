@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Index from '@/components/Index.vue'
+import Index from '@/components/GridAutoFlow.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,7 +13,7 @@ const router = createRouter({
       path: '/index',
       name: 'index',
 
-      component: () => import('@/components/Index.vue'),
+      component: () => import('@/components/GridAutoFlow.vue'),
     },
   ],
 })

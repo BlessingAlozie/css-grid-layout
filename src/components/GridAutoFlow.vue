@@ -73,12 +73,6 @@ img {
   width: 100%;
   height: 100%;
 }
-/* grid */
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  margin: 0 auto;
-  width: 100%;
-}
+
+
 </style>

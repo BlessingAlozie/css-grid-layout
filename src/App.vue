@@ -1,22 +1,23 @@
 <template>
-
-
   <RouterView />
-   <Index />
+  <GridAutoFlow />
+  <Autofit_Minmax />
 
 </template>
 
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-import Index  from './components/Index.vue';
+import GridAutoFlow from './components/GridAutoFlow.vue'
+import Autofit_Minmax from './components/Autofit_Minmax.vue'
 
-export default{
-  components:{
-    Index,
-   
-  }
+
+export default {
+  components: {
+    GridAutoFlow,
+    Autofit_Minmax,
+
+  },
 }
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
