@@ -40,7 +40,7 @@ export default {
 
 .image-container {
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 
 .image-container img {
@@ -75,6 +75,7 @@ export default {
   grid-auto-flow: column;
   gap: 50px;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .price-button h2 {
