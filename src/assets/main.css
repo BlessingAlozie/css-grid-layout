@@ -1,0 +1,21 @@
+@import './base.css';
+@import './utility.css';
+@import './fonts.css';
+@import './forms.css';
+@import './variables.css';
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 90%;
+  }
+}
+body{
+  background-color: #ffffff;
+  display: grid;
+}
