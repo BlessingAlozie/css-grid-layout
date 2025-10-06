@@ -2,13 +2,13 @@
   <div class="container">
     <div class="wrapper">
       <div class="image-container">
-        <img :src="image" alt="image" />
+        <img :src="image" alt="image" data-aos="zoom-in" />
       </div>
       <div class="text-container">
-        <h3>{{ title }}</h3>
-        <div class="price-button">
+        <h3 data-aos="fade-right">{{ title }}</h3>
+        <div class="price-button" data-aos="fade-up">
           <h2>{{ price }}</h2>
-          <button>{{ buttonText }}</button>
+          <button data-aos="flip-up">{{ buttonText }}</button>
         </div>
       </div>
     </div>
@@ -26,6 +26,10 @@ export default {
 
   data() {
     return {}
+  },
+  mounted() {
+    // refresh AOS when component is loaded
+    import('aos').then((AOS) => AOS.refresh())
   },
 }
 </script>

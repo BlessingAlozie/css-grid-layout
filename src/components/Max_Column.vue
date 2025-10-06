@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="wrapper">
     <main class="pt-4 pb-4">
       <div class="content">
@@ -49,4 +49,14 @@ export default {
   margin: 0 auto;
   width: 100%;
 }
-</style>
+</style> -->
+
+<template>
+  <div class="">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut deserunt optio tempora distinctio
+      saepe, aperiam ipsam veniam, iste sint excepturi sed necessitatibus facilis praesentium
+      itaque, harum perspiciatis voluptatibus! Sint, saepe.
+    </p>
+  </div>
+</template>
